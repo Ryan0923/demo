@@ -1,7 +1,8 @@
 package com.alibaba.mojb.case1;
 
-import static com.sun.btrace.BTraceUtils.*;
 import com.sun.btrace.annotations.*;
+
+import static com.sun.btrace.BTraceUtils.*;
 
 @BTrace
 public class TraceMethodArgsAndReturn {
