@@ -9,6 +9,7 @@
     <module>btrace</module>
     <module>jmx</module>
     <module>jvm</module>
+    <module>base</module>
   </modules>
   <name>demo Maven Webapp</name>
   <url>http://maven.apache.org</url>
