@@ -18,7 +18,8 @@ public class Retry {
 
     static Callable<Boolean> callable = new Callable<Boolean>() {
         public Boolean call() throws Exception {
-            return true; // do something useful here
+            System.out.println("==============================");
+            return null; // do something useful here
         }
     };
 
