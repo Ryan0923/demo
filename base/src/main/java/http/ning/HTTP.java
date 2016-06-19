@@ -28,7 +28,7 @@ public class HTTP {
         try {
             AsyncHttpClient.BoundRequestBuilder boundRequestBuilder = httpClient.prepareGet(request.url);
             if(useProxy){
-                boundRequestBuilder.setProxyServer()
+//                boundRequestBuilder.setProxyServer()
             }
             ListenableFuture<com.ning.http.client.Response> future = boundRequestBuilder.execute();
             future.get();
