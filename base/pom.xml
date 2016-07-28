@@ -25,7 +25,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>18.0</version>
+              <version>18.0</version>
         </dependency>
         <dependency>
             <groupId>com.github.rholder</groupId>
@@ -63,6 +63,18 @@
             <artifactId>mapstruct</artifactId>
             <version>${org.mapstruct.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jodd/jodd -->
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.intl.base.cmq</groupId>
+            <artifactId>cmq.client</artifactId>
+            <version>2.0.7</version>
+        </dependency>
+
     </dependencies>
     <properties>
         <org.mapstruct.version>1.0.0.Final</org.mapstruct.version>
