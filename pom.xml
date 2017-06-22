@@ -10,6 +10,7 @@
     <module>jmx</module>
     <module>jvm</module>
     <module>base</module>
+    <module>datastruct</module>
   </modules>
   <name>demo Maven Webapp</name>
   <url>http://maven.apache.org</url>
