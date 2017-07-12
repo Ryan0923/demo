@@ -30,6 +30,7 @@ public class Main {
             new AbortPolicy());
         List<Future> futureList = addTasks(threadPoolExecutor, createTasks(10));
         display(futureList, 30);
+
         System.out.println(getThreadPoolInfo(threadPoolExecutor));
     }
 
